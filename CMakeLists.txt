@@ -13,4 +13,5 @@ pods_install_headers(
 pods_install_pkg_config_file( cimg-1.5.7
   VERSION 1.5.7
   LIBS "-lX11"
+  REQUIRES MagickCore Magick++ MagickWand
 )
